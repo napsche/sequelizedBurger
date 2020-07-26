@@ -10,7 +10,7 @@ module.exports = function(app) {
       .then(function(data) {
         console.log(data);
         var hbsObject = {
-          foobar: data
+          burgers: data
         };
         console.log(hbsObject);
         res.render("index", hbsObject);
