@@ -1,9 +1,9 @@
 {
     "development": {
-      "username": "root",
-      "password": "NewPassword!23",
-      "database": "burgers_db",
-      "host": "localhost",
+      "username": "duat79pzap9nw3rw",
+      "password": "d4bm9na6gwtemh0t",
+      "database": "gb4kbuuq2ynauqle",
+      "host": "mkorvuw3sl6cu9ms.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
       "port": 3306,
       "dialect": "mysql"
     },
@@ -15,10 +15,7 @@
       "dialect": "mysql"
     },
     "production": {
-      "username": "duat79pzap9nw3rw",
-      "password": "d4bm9na6gwtemh0t",
-      "database": "gb4kbuuq2ynauqle",
-      "host": "mkorvuw3sl6cu9ms.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      "use_env_variable": "JAWSDB_URL",
       "dialect": "mysql"
     }
   }
